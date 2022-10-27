@@ -11,7 +11,4 @@
         npm run watch
 
 
-
-@joe-watson-sbf
-
-
+[Joe Watson SBF](https://github.com/joe-watson-sbf)
