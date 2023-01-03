@@ -1,5 +1,5 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
 const {parse} = require('csv-parse');
 
 const habitablePlanets = [];
@@ -32,8 +32,13 @@ function loadPlanetsData() {
 }
 
 
+function getAllPlanets() {
+    return habitablePlanets;
+}
+
+
 module.exports = {
-    planets: habitablePlanets,
+    getAllPlanets,
     loadPlanetsData
 }
 
